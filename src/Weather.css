@@ -1,0 +1,79 @@
+.Weather-wrapper {
+   font-family: "Quicksand", sans-serif;
+  color: #030620;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.Weather {
+  padding: 25px;
+  border: 1px solid #03062025;
+  border-radius: 7px;
+  box-shadow: 5px 10px 30px #03062025;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .float-left {
+  float: left;
+}
+
+.Weather .weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.Weather .weather-temperature strong {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.Weather .weather-temperature a {
+  text-decoration: none;
+}
+
+.Weather .code-link {
+  font-size: 12px;
+}
+
+.Weather .btn {
+  border: 1px solid #03062025;
+}
+
+.Weather .weather-temperature .active {
+  color: #030620;
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #030620;
+  padding: 20px 0;
+}
+
+.Weather .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.Weather .weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.Weather .weather-forecast-temperatures {
+  font-size: 13px;
+}
